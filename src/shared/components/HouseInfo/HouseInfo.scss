@@ -1,0 +1,109 @@
+
+*{
+    padding: 0px;
+}
+.houseInfo{
+    width: 100%;
+    height: 304px;
+    display:flex;
+    justify-content:center;
+
+    &-container{
+        margin-left: 6px;
+        width: 1558px;
+        height: 304px;
+    }
+}    
+
+.houseInfo__contentText{
+    width: 248px;
+    height: 231px;  
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;     
+
+    &::-webkit-scrollbar{
+    
+        width: 4px;
+        border-radius: 10px;
+        background-color: #443d3d;;
+        height: 26.5px;       
+        
+    }
+    
+    &::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background-color: white;
+        height: 26.5px;    
+   
+        
+    }
+    
+    &::-webkit-scrollbar-thumb:hover{
+        background-color: rgb(218, 209, 209);
+        
+    }
+
+    &__ul{
+       
+        list-style: none;
+    
+        &__li{
+            margin-bottom: 15px;   
+            font-family: 'Lato';
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #ffffff;
+            text-align: center;
+        }
+    }
+}
+
+
+*{
+    margin: 0px;
+}
+
+.houseInfo-container {
+    display: flex;    
+}
+.houseInfo-card {
+    
+    width: 248px;
+    height: 264.6px;
+    background-color: rgb(0, 0, 0);    
+   
+}
+
+.houseInfo__P{
+    width: 248px;
+    height: 24px;
+    text-align: center;   
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.houseInfo__content{
+    width: 248px;
+    height: 231px;  
+    margin-top: 35px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;   
+}
+
+.houseInfo__img{
+    height: 191.6px;
+    width: 160px;
+}

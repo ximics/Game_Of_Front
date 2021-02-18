@@ -1,0 +1,83 @@
+.menuPage{
+  background-image: url(../../img/backgroundThrone.svg);
+  width: 100vw;
+  height: 100vh;
+}
+
+.contenedorSuperior{
+  display: flex;
+
+  &__Izquierdo{
+    height: 7.685vh;
+    width: 50vw;
+  }
+
+  &__Derecho{
+    height: 7.685vh;
+    width: 50vw;
+  }
+}
+
+
+.contenedorMedio{
+  width:100vw;
+  height: 82.1vh;
+}
+
+.contenedorInferior{
+  width:100vw;
+  height: 10.2vh;
+}
+ 
+.home{
+  height: 100%;
+  display: flex;
+  float: right;  
+}
+
+.banderas{
+  height: 100%;
+  margin-right: 18.1%;
+  display: flex;
+  float: right;      
+}
+
+
+.homePageDiv{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  
+  // margin-bottom: 253px;
+
+  .homePageDiv__title{
+    width: 1267px;
+    font-size: 11em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    object-fit: contain;
+    text-align: center;
+  }
+
+}
+
+
+  
+  
+
+.header-container{
+  display: flex; 
+  width: 100%;
+  height: 300px;
+}
+
+.relleno{
+  width: 75.15%;
+  margin-left: 156px;
+}

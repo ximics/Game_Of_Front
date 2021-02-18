@@ -1,0 +1,52 @@
+
+.menuContenedor{
+    
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 6.8vw;
+    padding-left: 6.8vw;
+    
+    &__personajes{
+        
+        height: 2.75em;
+        font-size: 2.25em;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        text-align: center;
+        
+        
+    }
+    &__casas{
+        
+        height: 2.75em;
+        font-size: 2.25em;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        text-align: center;
+          
+        
+    }
+    &__cronologia{
+        
+        height: 2.75em;
+        font-size: 2.25em;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        text-align: center;
+
+    }
+}
+

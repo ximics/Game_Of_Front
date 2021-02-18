@@ -1,0 +1,21 @@
+.c-container{  
+    height: 97.5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 7%;
+    margin-right:4%;
+    
+    &-scroll{
+    margin-top: 1%;
+    // height: 760px;
+    background-color:#000000;
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    // margin-bottom: 33px;
+    
+    }   
+    
+
+}

@@ -1,0 +1,30 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'got';
+  background-color: black;
+  font-size: 16px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar{
+  background-color: #443d3d;
+  border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+  height: 91.3px;
+  border-radius: 10px;
+  background-color: white;
+
+  &:hover{
+    background-color: rgb(167, 159, 159);  
+    height: 95px;  
+  }
+}

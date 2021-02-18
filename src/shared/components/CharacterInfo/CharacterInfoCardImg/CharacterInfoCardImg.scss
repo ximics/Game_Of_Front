@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+
+.characterInfo-container {
+    display: flex;    
+}
+.characterInfo-card {
+    
+    width: 15.5em;
+    height: 16.5375em; 
+   
+}
+
+.characterInfo__P{
+    height: 1.5em;
+    text-align: center;   
+    font-size: 1.5em;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.characterInfo__content{
+    width: 15.5em;
+    height: 14.4375em;   
+    margin-top: 2.1875em;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;   
+}
+
+.characterInfo__img{
+    height: 11.975em;
+    width: 10em;
+}

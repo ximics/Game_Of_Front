@@ -1,0 +1,42 @@
+
+.c-searchbar{   
+    margin-top: 2.375em;
+    margin-left: 9.3em;
+ 
+    
+    &__div{
+        width: 49.25em;
+        height: 2.3125em;
+        display: inline;         
+    }
+
+    &__img{
+        display: inline;
+        margin-right: 0.5625em;  
+    }
+
+    &__searchbar{      
+        font-family: Lato;
+        font-size: 1.5em;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #6c6c6c;
+        background: none;
+        display: inline; 
+        margin-bottom: 0.125em;   
+        border: none;
+        outline-style: none;   
+        
+    }    
+    
+    
+    &__rectangle{
+        width: 49.25em;
+        height: 0.125em;
+        border-radius:  0.625em;
+    
+    }
+}

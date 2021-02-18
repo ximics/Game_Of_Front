@@ -1,0 +1,37 @@
+.banderas{
+  width: 200px;
+  margin-top: 1.2%;
+  
+  &__españa{   
+  }
+
+  &__inglaterra{       
+  }
+}
+
+.espanna{
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  
+}
+
+.england{
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+}
+
+.separacion2{
+  margin-left: 10%;
+}
+
+.francia{
+  width: 64px;
+  height: 64px;
+  transform: rotate(15deg);  
+  
+  &__bandera{
+    cursor: pointer;
+  }
+}
